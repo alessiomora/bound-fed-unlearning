@@ -1,0 +1,33 @@
+{
+  "dataset": "tanganke/stanford_cars",
+  "revision": "9abf6cf7d6dfa7b95152a0d6e791ea9435b47a40",
+  "files": [
+    {
+      "path": "test-00000-of-00002.parquet",
+      "bytes": 513268211,
+      "sha256": "ddb15e6a44573203cc1be170be2f05d1e34b22532d37579a6d53cfd05c21485a",
+      "split": "test"
+    },
+    {
+      "path": "test-00001-of-00002.parquet",
+      "bytes": 473601440,
+      "sha256": "22c54046e4beaeb01d4a6daa72a39c5af50feda6850dbf2b0f784cabf865ccaa",
+      "split": "test"
+    },
+    {
+      "path": "train-00000-of-00002.parquet",
+      "bytes": 503707028,
+      "sha256": "b35f21fdeda40973f3b3e1d17bd7a0d2baf8ef249777fc0a0ea7c33c63fa718e",
+      "split": "train"
+    },
+    {
+      "path": "train-00001-of-00002.parquet",
+      "bytes": 484975142,
+      "sha256": "b8fc512aac709672c09f17a1b5ee7ae47585894ca52be753cd4e3af726fdef77",
+      "split": "train"
+    }
+  ],
+  "train_rows": 8144,
+  "test_rows": 8041,
+  "note": "Only uncorrupted official train/test splits; mirror provenance recorded, image-row parity with original archives not independently checked."
+}

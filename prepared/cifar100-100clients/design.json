@@ -1,0 +1,66 @@
+{
+  "seed": 2026,
+  "dirichlet": 0.1,
+  "partition_attempt": 1,
+  "minimum_client_size": 10,
+  "training_rounds": 2000,
+  "continued_from_round": 1000,
+  "learning_rate_schedule_horizon": 1000,
+  "participating_clients_per_round": 10,
+  "recovery_rounds": 20,
+  "bound": {
+    "beta": 2,
+    "lr": 0.0005,
+    "epochs": 10,
+    "scope": "layer4.1"
+  },
+  "partition_sha256": "d3945197308f9b7bcb0c90b548a5dca6545b847c8cfb5f8e96d5cfe1b0253012",
+  "requests": {
+    "1": {
+      "clients": [
+        0
+      ],
+      "counts": {
+        "0": 551
+      },
+      "class_coverage": {
+        "0": 39
+      },
+      "original_participations": {
+        "0": 186
+      },
+      "deleted_fraction": 0.01102
+    },
+    "5": {
+      "clients": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "counts": {
+        "0": 551,
+        "1": 314,
+        "2": 436,
+        "3": 395,
+        "4": 311
+      },
+      "class_coverage": {
+        "0": 39,
+        "1": 26,
+        "2": 25,
+        "3": 38,
+        "4": 29
+      },
+      "original_participations": {
+        "0": 186,
+        "1": 197,
+        "2": 189,
+        "3": 202,
+        "4": 205
+      },
+      "deleted_fraction": 0.04014
+    }
+  }
+}

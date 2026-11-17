@@ -1,0 +1,13 @@
+{
+  "cars_backbone": {
+    "model": "timm/deit_tiny_patch16_224.fb_in1k",
+    "revision": "80e968688553f219e4a86f940ed945a23709c16f",
+    "pretraining": "ImageNet-1k",
+    "weights_downloaded": false,
+    "encoder_training": "full fine-tuning, not a frozen-backbone-only experiment",
+    "feature_dim": 192,
+    "patch_size": 16,
+    "input_size": 224,
+    "distilled": false
+  }
+}
